@@ -40,6 +40,7 @@ def get_embeddings(texts):
     r = requests.post("http://localhost:3333/encode", data=data, headers=headers).json()
     return r['result']
 ```
+**Note:** Make sure port of localhost is same in both get_embeddings and bert-serving-start
 You get the embedding like so
 ```
 list_item = ['cat','rat','dog']
