@@ -41,6 +41,7 @@ def get_embeddings(texts):
     return r['result']
 ```
 **Note:** Make sure port of localhost is same in both get_embeddings and bert-serving-start
+
 You get the embedding like so
 ```
 list_item = ['cat','rat','dog']
