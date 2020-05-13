@@ -52,8 +52,3 @@ y_predict = clf.predict(x_test)
 print("random")
 print("Accuracy Score :",accuracy_score(y_test,y_predict))
 print(classification_report(y_test,y_predict))
-
-
-
-
-
