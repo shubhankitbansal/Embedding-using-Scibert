@@ -1,0 +1,3 @@
+!pip install -U bert-serving-server[http]
+
+bert-serving-start -model_dir=./path_to/scibert-scivocab-uncased -http_port 3333 &
