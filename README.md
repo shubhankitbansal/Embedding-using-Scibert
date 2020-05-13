@@ -1,5 +1,3 @@
-# Embedding-using-Scibert
-
 # Generate Embedding using scibert 
 `SciBERT` is a `BERT` model trained on scientific text. This is work on every operating system. There is no requirement of GPU to run this project but GPU help to train a model faster than CPU. There is so many requests in google colaboratory so we working on localhost.
 We train our model using Support Vector Machine.
